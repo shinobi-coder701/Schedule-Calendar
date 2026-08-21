@@ -1,0 +1,1 @@
+CREATE POLICY "Anyone can update schedules" ON public.schedules FOR UPDATE USING (true) WITH CHECK (true);

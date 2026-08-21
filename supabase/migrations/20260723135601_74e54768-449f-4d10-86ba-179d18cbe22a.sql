@@ -1,0 +1,1 @@
+ALTER TABLE public.schedules ADD COLUMN interviewer text;
